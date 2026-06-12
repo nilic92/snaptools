@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebP to PNG Converter — Free &amp; Private, No Upload | SnapTools</title>
+<meta name="description" content="Convert WebP images to PNG online for free. Batch convert with transparency preserved. Runs in your browser — files never uploaded.">
+<link rel="canonical" href="https://example.com/tools/webp-to-png.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site">
+  <div class="container">
+    <a class="logo" href="../index.html">Snap<span>Tools</span></a>
+    <nav><a href="../index.html">All tools</a></nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>WebP to PNG Converter</h1>
+  <p class="sub">Turn WebP images into PNG with transparency kept intact. Batch supported. Free.</p>
+
+  <div class="dropzone" id="dropzone">
+    <div class="big">Drop WebP files here or click to choose</div>
+    <div class="small">Supports .webp · transparency preserved · batch convert</div>
+    <input type="file" id="fileInput" accept="image/webp,.webp" multiple>
+  </div>
+
+  <div class="controls">
+    
+    <button class="btn secondary" id="downloadAll" disabled>Download all</button>
+  </div>
+
+  <div class="privacy-note">🔒 <span><b>100% private.</b> Conversion runs in your browser — nothing is uploaded.</span></div>
+
+  <div class="results" id="results"></div>
+
+  <div class="ad-slot">Ad slot (728×90) — replace with AdSense unit after approval</div>
+
+  <section class="seo">
+    <h2>How to convert WebP to PNG</h2>
+    <p>Drop your .webp files above and each becomes a downloadable PNG instantly. PNG keeps full transparency, so logos stay clean.</p>
+    <h2>Why convert WebP to PNG?</h2>
+    <p>Many design programs and platforms don't accept WebP. PNG is universally supported and lossless.</p>
+  </section>
+</main>
+
+<footer class="site"><div class="container">SnapTools · Free in-browser image tools — your files never leave your device.</div></footer>
+
+<script src="../converter.js"></script>
+<script>initConverter({ outputMime: 'image/png', outputExt: 'png' });</script>
+</body>
+</html>

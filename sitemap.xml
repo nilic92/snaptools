@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/tools/heic-to-jpg.html</loc></url>
+  <url><loc>https://example.com/tools/heic-to-png.html</loc></url>
+  <url><loc>https://example.com/tools/webp-to-png.html</loc></url>
+  <url><loc>https://example.com/tools/webp-to-jpg.html</loc></url>
+  <url><loc>https://example.com/tools/png-to-webp.html</loc></url>
+  <url><loc>https://example.com/tools/jpg-to-webp.html</loc></url>
+  <url><loc>https://example.com/tools/png-to-jpg.html</loc></url>
+  <url><loc>https://example.com/tools/jpg-to-png.html</loc></url>
+  <url><loc>https://example.com/tools/avif-to-jpg.html</loc></url>
+  <url><loc>https://example.com/tools/avif-to-png.html</loc></url>
+  <url><loc>https://example.com/tools/compress-image.html</loc></url>
+</urlset>

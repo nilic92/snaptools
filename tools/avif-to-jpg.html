@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AVIF to JPG Converter — Free, Open AVIF Anywhere | SnapTools</title>
+<meta name="description" content="Convert AVIF to JPG online for free. Open modern AVIF images anywhere, adjustable quality, 100% private in-browser conversion.">
+<link rel="canonical" href="https://example.com/tools/avif-to-jpg.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site">
+  <div class="container">
+    <a class="logo" href="../index.html">Snap<span>Tools</span></a>
+    <nav><a href="../index.html">All tools</a></nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>AVIF to JPG Converter</h1>
+  <p class="sub">Open the newest AVIF format and save as universal JPG. Free.</p>
+
+  <div class="dropzone" id="dropzone">
+    <div class="big">Drop AVIF files here or click to choose</div>
+    <div class="small">Supports .avif · adjustable quality · batch convert</div>
+    <input type="file" id="fileInput" accept="image/avif,.avif" multiple>
+  </div>
+
+  <div class="controls">
+    <label>Quality: <span id="qualityVal">90%</span></label>
+    <input type="range" id="quality" min="40" max="100" value="90">
+    <button class="btn secondary" id="downloadAll" disabled>Download all</button>
+  </div>
+
+  <div class="privacy-note">🔒 <span><b>100% private.</b> Conversion runs in your browser — nothing is uploaded.</span></div>
+
+  <div class="results" id="results"></div>
+
+  <div class="ad-slot">Ad slot (728×90) — replace with AdSense unit after approval</div>
+
+  <section class="seo">
+    <h2>How to convert AVIF to JPG</h2>
+    <p>Drop your .avif files above and download JPG versions that open in any app.</p>
+    <h2>What is AVIF?</h2>
+    <p>AVIF is a modern, highly efficient image format. It's not yet supported everywhere, so converting to JPG ensures compatibility.</p>
+  </section>
+</main>
+
+<footer class="site"><div class="container">SnapTools · Free in-browser image tools — your files never leave your device.</div></footer>
+
+<script src="../converter.js"></script>
+<script>initConverter({ outputMime: 'image/jpeg', outputExt: 'jpg' });</script>
+</body>
+</html>

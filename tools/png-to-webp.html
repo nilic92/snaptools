@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PNG to WebP Converter — Free, Shrink Images | SnapTools</title>
+<meta name="description" content="Convert PNG to WebP online for free and cut image size dramatically. Adjustable quality, batch convert, fully in-browser — 100% private.">
+<link rel="canonical" href="https://example.com/tools/png-to-webp.html">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site">
+  <div class="container">
+    <a class="logo" href="../index.html">Snap<span>Tools</span></a>
+    <nav><a href="../index.html">All tools</a></nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>PNG to WebP Converter</h1>
+  <p class="sub">Shrink PNG/JPG images to lightweight WebP. Adjustable quality. Batch supported.</p>
+
+  <div class="dropzone" id="dropzone">
+    <div class="big">Drop PNG or JPG files here or click to choose</div>
+    <div class="small">Supports .png / .jpg · adjustable quality · batch convert</div>
+    <input type="file" id="fileInput" accept="image/png,image/jpeg,.png,.jpg,.jpeg" multiple>
+  </div>
+
+  <div class="controls">
+    <label>Quality: <span id="qualityVal">90%</span></label>
+    <input type="range" id="quality" min="40" max="100" value="90">
+    <button class="btn secondary" id="downloadAll" disabled>Download all</button>
+  </div>
+
+  <div class="privacy-note">🔒 <span><b>100% private.</b> Conversion runs in your browser — nothing is uploaded.</span></div>
+
+  <div class="results" id="results"></div>
+
+  <div class="ad-slot">Ad slot (728×90) — replace with AdSense unit after approval</div>
+
+  <section class="seo">
+    <h2>How to convert PNG to WebP</h2>
+    <p>Drop your .png or .jpg files above, choose a quality level, and download smaller WebP versions.</p>
+    <h2>Why use WebP?</h2>
+    <p>WebP images are typically 25–35% smaller than PNG/JPG at the same quality. Smaller images mean faster websites and better Core Web Vitals.</p>
+  </section>
+</main>
+
+<footer class="site"><div class="container">SnapTools · Free in-browser image tools — your files never leave your device.</div></footer>
+
+<script src="../converter.js"></script>
+<script>initConverter({ outputMime: 'image/webp', outputExt: 'webp' });</script>
+</body>
+</html>

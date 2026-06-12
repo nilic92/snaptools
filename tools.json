@@ -1,0 +1,209 @@
+{
+  "site": {
+    "brand": "SnapTools",
+    "domain": "https://example.com",
+    "tagline": "Free in-browser image tools — your files never leave your device.",
+    "analytics": ""
+  },
+  "tools": [
+    {
+      "slug": "heic-to-jpg",
+      "title": "HEIC to JPG Converter — Free, Private, In-Browser",
+      "h1": "HEIC to JPG Converter",
+      "sub": "Convert iPhone HEIC photos to universal JPG. Batch supported. Free forever.",
+      "metaDesc": "Convert HEIC (iPhone photos) to JPG online for free. Batch convert, adjustable quality, and your files never leave your device — 100% private, no upload.",
+      "accept": "image/heic,image/heif,.heic,.heif",
+      "outputMime": "image/jpeg",
+      "outputExt": "jpg",
+      "quality": true,
+      "heic": true,
+      "drop": "Drop HEIC files here or click to choose",
+      "small": "Supports .heic / .heif · batch convert multiple files",
+      "seo": [
+        { "h2": "How to convert HEIC to JPG", "p": "Drag your .heic or .heif files into the box above, pick a quality level, and each photo is instantly converted to a downloadable JPG. Convert many at once and grab them with Download all." },
+        { "h2": "Why are my iPhone photos in HEIC?", "p": "Since iOS 11, iPhones save photos in HEIC to reduce file size. It's great on Apple devices but many Windows apps and websites can't open it — converting to JPG fixes that everywhere." },
+        { "h2": "Is this safe and private?", "p": "Yes. Unlike most online converters that upload your photos, this tool runs entirely in your browser. Your images never leave your device." }
+      ]
+    },
+    {
+      "slug": "heic-to-png",
+      "title": "HEIC to PNG Converter — Free & Private",
+      "h1": "HEIC to PNG Converter",
+      "sub": "Convert iPhone HEIC photos to lossless PNG. Batch supported. Free.",
+      "metaDesc": "Convert HEIC to PNG online for free. Lossless quality, batch convert, fully in-browser — your files are never uploaded.",
+      "accept": "image/heic,image/heif,.heic,.heif",
+      "outputMime": "image/png",
+      "outputExt": "png",
+      "quality": false,
+      "heic": true,
+      "drop": "Drop HEIC files here or click to choose",
+      "small": "Supports .heic / .heif · lossless PNG · batch convert",
+      "seo": [
+        { "h2": "How to convert HEIC to PNG", "p": "Drop your .heic files above and each becomes a downloadable, lossless PNG instantly." },
+        { "h2": "HEIC to PNG vs JPG", "p": "PNG is lossless and keeps maximum quality, ideal for editing. JPG is smaller and better for sharing. Pick PNG when quality matters most." }
+      ]
+    },
+    {
+      "slug": "webp-to-png",
+      "title": "WebP to PNG Converter — Free & Private, No Upload",
+      "h1": "WebP to PNG Converter",
+      "sub": "Turn WebP images into PNG with transparency kept intact. Batch supported. Free.",
+      "metaDesc": "Convert WebP images to PNG online for free. Batch convert with transparency preserved. Runs in your browser — files never uploaded.",
+      "accept": "image/webp,.webp",
+      "outputMime": "image/png",
+      "outputExt": "png",
+      "quality": false,
+      "heic": false,
+      "drop": "Drop WebP files here or click to choose",
+      "small": "Supports .webp · transparency preserved · batch convert",
+      "seo": [
+        { "h2": "How to convert WebP to PNG", "p": "Drop your .webp files above and each becomes a downloadable PNG instantly. PNG keeps full transparency, so logos stay clean." },
+        { "h2": "Why convert WebP to PNG?", "p": "Many design programs and platforms don't accept WebP. PNG is universally supported and lossless." }
+      ]
+    },
+    {
+      "slug": "webp-to-jpg",
+      "title": "WebP to JPG Converter — Free, In-Browser",
+      "h1": "WebP to JPG Converter",
+      "sub": "Convert WebP images to JPG. Adjustable quality. Batch supported. Free.",
+      "metaDesc": "Convert WebP to JPG online for free. Adjustable quality, batch convert, 100% private in-browser conversion.",
+      "accept": "image/webp,.webp",
+      "outputMime": "image/jpeg",
+      "outputExt": "jpg",
+      "quality": true,
+      "heic": false,
+      "drop": "Drop WebP files here or click to choose",
+      "small": "Supports .webp · adjustable quality · batch convert",
+      "seo": [
+        { "h2": "How to convert WebP to JPG", "p": "Drop your .webp files above, pick a quality level, and download JPG versions instantly." },
+        { "h2": "WebP to JPG", "p": "JPG is supported by every app and device. Convert when you need a photo to work everywhere." }
+      ]
+    },
+    {
+      "slug": "png-to-webp",
+      "title": "PNG to WebP Converter — Free, Shrink Images",
+      "h1": "PNG to WebP Converter",
+      "sub": "Shrink PNG/JPG images to lightweight WebP. Adjustable quality. Batch supported.",
+      "metaDesc": "Convert PNG to WebP online for free and cut image size dramatically. Adjustable quality, batch convert, fully in-browser — 100% private.",
+      "accept": "image/png,image/jpeg,.png,.jpg,.jpeg",
+      "outputMime": "image/webp",
+      "outputExt": "webp",
+      "quality": true,
+      "heic": false,
+      "drop": "Drop PNG or JPG files here or click to choose",
+      "small": "Supports .png / .jpg · adjustable quality · batch convert",
+      "seo": [
+        { "h2": "How to convert PNG to WebP", "p": "Drop your .png or .jpg files above, choose a quality level, and download smaller WebP versions." },
+        { "h2": "Why use WebP?", "p": "WebP images are typically 25–35% smaller than PNG/JPG at the same quality. Smaller images mean faster websites and better Core Web Vitals." }
+      ]
+    },
+    {
+      "slug": "jpg-to-webp",
+      "title": "JPG to WebP Converter — Free, Smaller Images",
+      "h1": "JPG to WebP Converter",
+      "sub": "Convert JPG to lightweight WebP for faster websites. Adjustable quality.",
+      "metaDesc": "Convert JPG to WebP online for free. Reduce image size, adjustable quality, batch convert — runs fully in your browser.",
+      "accept": "image/jpeg,.jpg,.jpeg",
+      "outputMime": "image/webp",
+      "outputExt": "webp",
+      "quality": true,
+      "heic": false,
+      "drop": "Drop JPG files here or click to choose",
+      "small": "Supports .jpg / .jpeg · adjustable quality · batch convert",
+      "seo": [
+        { "h2": "How to convert JPG to WebP", "p": "Drop your .jpg files above, pick a quality level, and download smaller WebP images." },
+        { "h2": "JPG vs WebP", "p": "WebP keeps similar quality at a much smaller size, ideal for web performance." }
+      ]
+    },
+    {
+      "slug": "png-to-jpg",
+      "title": "PNG to JPG Converter — Free, In-Browser",
+      "h1": "PNG to JPG Converter",
+      "sub": "Convert PNG to JPG with adjustable quality. Batch supported. Free.",
+      "metaDesc": "Convert PNG to JPG online for free. Adjustable quality, batch convert, 100% private — no upload.",
+      "accept": "image/png,.png",
+      "outputMime": "image/jpeg",
+      "outputExt": "jpg",
+      "quality": true,
+      "heic": false,
+      "drop": "Drop PNG files here or click to choose",
+      "small": "Supports .png · adjustable quality · batch convert",
+      "seo": [
+        { "h2": "How to convert PNG to JPG", "p": "Drop your .png files above, choose quality, and download JPG versions. Transparent areas become white." },
+        { "h2": "Why convert PNG to JPG?", "p": "JPG files are much smaller, ideal for photos and email where transparency isn't needed." }
+      ]
+    },
+    {
+      "slug": "jpg-to-png",
+      "title": "JPG to PNG Converter — Free, Lossless",
+      "h1": "JPG to PNG Converter",
+      "sub": "Convert JPG to lossless PNG. Batch supported. Free.",
+      "metaDesc": "Convert JPG to PNG online for free. Lossless output, batch convert, fully in-browser — files never uploaded.",
+      "accept": "image/jpeg,.jpg,.jpeg",
+      "outputMime": "image/png",
+      "outputExt": "png",
+      "quality": false,
+      "heic": false,
+      "drop": "Drop JPG files here or click to choose",
+      "small": "Supports .jpg / .jpeg · lossless PNG · batch convert",
+      "seo": [
+        { "h2": "How to convert JPG to PNG", "p": "Drop your .jpg files above and download lossless PNG versions instantly." },
+        { "h2": "When to use PNG", "p": "PNG is lossless and supports transparency — best for graphics, screenshots, and editing." }
+      ]
+    },
+    {
+      "slug": "avif-to-jpg",
+      "title": "AVIF to JPG Converter — Free, Open AVIF Anywhere",
+      "h1": "AVIF to JPG Converter",
+      "sub": "Open the newest AVIF format and save as universal JPG. Free.",
+      "metaDesc": "Convert AVIF to JPG online for free. Open modern AVIF images anywhere, adjustable quality, 100% private in-browser conversion.",
+      "accept": "image/avif,.avif",
+      "outputMime": "image/jpeg",
+      "outputExt": "jpg",
+      "quality": true,
+      "heic": false,
+      "drop": "Drop AVIF files here or click to choose",
+      "small": "Supports .avif · adjustable quality · batch convert",
+      "seo": [
+        { "h2": "How to convert AVIF to JPG", "p": "Drop your .avif files above and download JPG versions that open in any app." },
+        { "h2": "What is AVIF?", "p": "AVIF is a modern, highly efficient image format. It's not yet supported everywhere, so converting to JPG ensures compatibility." }
+      ]
+    },
+    {
+      "slug": "avif-to-png",
+      "title": "AVIF to PNG Converter — Free, Lossless",
+      "h1": "AVIF to PNG Converter",
+      "sub": "Convert modern AVIF images to lossless PNG. Free.",
+      "metaDesc": "Convert AVIF to PNG online for free. Lossless output, batch convert, runs fully in your browser — nothing uploaded.",
+      "accept": "image/avif,.avif",
+      "outputMime": "image/png",
+      "outputExt": "png",
+      "quality": false,
+      "heic": false,
+      "drop": "Drop AVIF files here or click to choose",
+      "small": "Supports .avif · lossless PNG · batch convert",
+      "seo": [
+        { "h2": "How to convert AVIF to PNG", "p": "Drop your .avif files above and download lossless PNG versions instantly." },
+        { "h2": "AVIF to PNG", "p": "PNG keeps full quality and transparency, making it ideal when you need to edit AVIF images." }
+      ]
+    },
+    {
+      "slug": "compress-image",
+      "title": "Compress Image Online — Free, Private, No Upload",
+      "h1": "Compress Image",
+      "sub": "Reduce image file size while keeping quality. Batch supported. Free.",
+      "metaDesc": "Compress JPG, PNG and WebP images online for free. Adjustable quality, batch compress, 100% private — your files never leave your browser.",
+      "accept": "image/png,image/jpeg,image/webp,.png,.jpg,.jpeg,.webp",
+      "outputMime": "image/jpeg",
+      "outputExt": "jpg",
+      "quality": true,
+      "heic": false,
+      "drop": "Drop images here or click to choose",
+      "small": "Supports .jpg / .png / .webp · adjustable quality · batch compress",
+      "seo": [
+        { "h2": "How to compress an image", "p": "Drop your images above, lower the quality slider until the size is small enough, and download. Lower quality = smaller file." },
+        { "h2": "Compress without losing quality", "p": "At 70–85% quality, most photos look identical but are far smaller — perfect for email, web, and storage." }
+      ]
+    }
+  ]
+}

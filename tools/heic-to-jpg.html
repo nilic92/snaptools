@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HEIC to JPG Converter — Free, Private, In-Browser | SnapTools</title>
+<meta name="description" content="Convert HEIC (iPhone photos) to JPG online for free. Batch convert, adjustable quality, and your files never leave your device — 100% private, no upload.">
+<link rel="canonical" href="https://example.com/tools/heic-to-jpg.html">
+<link rel="stylesheet" href="../style.css">
+<script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
+</head>
+<body>
+<header class="site">
+  <div class="container">
+    <a class="logo" href="../index.html">Snap<span>Tools</span></a>
+    <nav><a href="../index.html">All tools</a></nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>HEIC to JPG Converter</h1>
+  <p class="sub">Convert iPhone HEIC photos to universal JPG. Batch supported. Free forever.</p>
+
+  <div class="dropzone" id="dropzone">
+    <div class="big">Drop HEIC files here or click to choose</div>
+    <div class="small">Supports .heic / .heif · batch convert multiple files</div>
+    <input type="file" id="fileInput" accept="image/heic,image/heif,.heic,.heif" multiple>
+  </div>
+
+  <div class="controls">
+    <label>Quality: <span id="qualityVal">90%</span></label>
+    <input type="range" id="quality" min="40" max="100" value="90">
+    <button class="btn secondary" id="downloadAll" disabled>Download all</button>
+  </div>
+
+  <div class="privacy-note">🔒 <span><b>100% private.</b> Conversion runs in your browser — nothing is uploaded.</span></div>
+
+  <div class="results" id="results"></div>
+
+  <div class="ad-slot">Ad slot (728×90) — replace with AdSense unit after approval</div>
+
+  <section class="seo">
+    <h2>How to convert HEIC to JPG</h2>
+    <p>Drag your .heic or .heif files into the box above, pick a quality level, and each photo is instantly converted to a downloadable JPG. Convert many at once and grab them with Download all.</p>
+    <h2>Why are my iPhone photos in HEIC?</h2>
+    <p>Since iOS 11, iPhones save photos in HEIC to reduce file size. It's great on Apple devices but many Windows apps and websites can't open it — converting to JPG fixes that everywhere.</p>
+    <h2>Is this safe and private?</h2>
+    <p>Yes. Unlike most online converters that upload your photos, this tool runs entirely in your browser. Your images never leave your device.</p>
+  </section>
+</main>
+
+<footer class="site"><div class="container">SnapTools · Free in-browser image tools — your files never leave your device.</div></footer>
+
+<script src="../converter.js"></script>
+<script>initConverter({ outputMime: 'image/jpeg', outputExt: 'jpg' });</script>
+</body>
+</html>
